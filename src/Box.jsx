@@ -2,7 +2,7 @@
 import "./Box.css";
 
 const Box = ({
-    box: { color = "pink", width = "10", height = "10", id },
+    box: { color, width, height, id },
     removeBox,
 }) => {
     const remove = () => removeBox(id)
